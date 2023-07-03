@@ -25,7 +25,7 @@
         "format": "{}"
     },
     "tray": {
-        // "icon-size": 21,
+        "icon-size": 21,
         "spacing": 10
     },
     "clock": {
@@ -54,12 +54,14 @@
         "format-ethernet": "",
         "format-disconnected": "睊",
         // "on-click": "nmtui"
+        // "on-right-click": "nm-connection-editor",
+        "on-click": "nm-connection-editor",
         // "format-wifi": "{essid} ({signalStrength}%) ",
         // "format-ethernet": "{ipaddr}/{cidr} ",
         // "tooltip-format": "{ifname} via {gwaddr} ",
         // "format-linked": "{ifname} (No IP) ",
         // "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
